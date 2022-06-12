@@ -1,0 +1,93 @@
+.body{
+   
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-div tr{
+    border: 0px;
+}
+.input-box{
+    background-color:rgb(255, 255, 255);
+    width: 40vw;
+    color:orange;
+    height: fit-content;
+    border-radius:0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; box-shadow: 5px 5px 5px 5px #f8d3d3;
+}
+.headers{
+   margin-top: 20px; 
+   font-size:1.75rem;
+   margin-bottom: 20px;
+}
+.inputs{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column; 
+}
+
+tr{
+    width: 5%;
+}
+td{
+    border: 0px;
+}
+
+
+.time-div{
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.time-input{
+    display: flex;
+}
+.time-div input{
+
+    width:10rem;
+    height: 4rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: #eee;
+  
+    
+}
+
+.table-div{
+    width: 80%;
+    justify-self: center;
+}
+
+ label{
+    font-size: 1.5rem;
+}
+
+.form-input-div input{
+    width: 25rem;
+    height: 4rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: #eee;
+}
+
+.add-btn{
+display: flex;
+justify-content:center ;
+margin: 10px;
+}
+
+:placeholder-shown{
+    font-size:medium;
+    font-weight: 500;
+   
+}
